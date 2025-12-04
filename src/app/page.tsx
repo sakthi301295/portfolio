@@ -7,7 +7,7 @@ import AboutPage from "./components/about";
 import TechPage from "./components/tech";
 import ProjectPage from "./components/project";
 import ContactPage from "./components/contact";
-import { Mail, Heart, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function Home() {
           href="#home"
           className="text-xl font-bold text-purple-600 tracking-wide"
         >
-          Sakthibalaji
+          Sakthibalaji M
         </a>
 
         {/* Desktop Navigation */}
@@ -90,7 +90,7 @@ export default function Home() {
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-snug">
             Hi 👋, <br />
-            I'm <span className="text-purple-600">Sakthibalaji</span>
+            I&apos;m <span className="text-purple-600">Sakthibalaji</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium">
             A passionate{" "}
