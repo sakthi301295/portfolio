@@ -5,22 +5,22 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Neobone",
+    title: "Mailwave",
     description: "A sample project description explaining the tools used and a short summary about the project.",
     img: "/projects/bg3.png",
-    link:  "https://github.com/sakthi301295/neobone?tab=readme-ov-file#neobone",
+    link:  "https://github.com/sakthi301295/mailwave.git",
   },
   {
-    title: "Ruchera",
+    title: "E-commerce Website",
     description:  "A sample project description explaining the tools used and a short summary about the project.",
     img: "/projects/image2.png",
-    link:"https://github.com/sakthi301295/Ruchera#ruchera",
+    link:"https://github.com/sakthi301295/E-commerce-website.git",
   },
   {
-    title: "3D Animation",
+    title: "Digital Twin",
     description: "A task management app with drag & drop and real-time updates.",
     img: "/projects/image3.png",
-    link: "https://github.com/sakthi301295/my-threejs-project#my-threejs-project",
+    link: "https://github.com/sakthi301295/digitalTwin.git",
   },
 ];
 
