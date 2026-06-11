@@ -67,7 +67,7 @@ export default function AboutPage() {
           </p>
 
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            When I&apos;m not coding, you'll find me exploring emerging technologies, contributing to open-source projects, or sharing knowledge with the developer community. I'm always eager to learn and grow in this ever-evolving tech landscape. 🚀
+            When I&apos;m not coding, you&apos;ll find me exploring emerging technologies, contributing to open-source projects, or sharing knowledge with the developer community. I&apos;m always eager to learn and grow in this ever-evolving tech landscape. 🚀
           </p>
 
           <motion.a

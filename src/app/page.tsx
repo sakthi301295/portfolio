@@ -9,10 +9,10 @@ import ProjectPage from "./components/project";
 import ContactPage from "./components/contact";
 import { Mail, Linkedin, Github, ChevronDown, Sparkles } from "lucide-react";
 
+const navItems = ["Home", "About", "Tech", "Projects", "Contact"];
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const navItems = ["Home", "About", "Tech", "Projects", "Contact"];
 
   // Prevent scrolling when menu is open
   useEffect(() => {
