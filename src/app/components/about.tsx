@@ -58,7 +58,7 @@ export default function AboutPage() {
           className="space-y-6"
         >
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            I'm <span className="font-bold text-purple-600">Sakthibalaji M</span>, a passionate{" "}
+           I&apos;m<span className="font-bold text-purple-600">Sakthibalaji M</span>, a passionate{" "}
             <span className="font-bold text-blue-600">Full Stack Developer</span> based in India. I specialize in building modern web applications that combine stunning UIs with powerful backend systems.
           </p>
 
@@ -67,7 +67,7 @@ export default function AboutPage() {
           </p>
 
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            When I'm not coding, you'll find me exploring emerging technologies, contributing to open-source projects, or sharing knowledge with the developer community. I'm always eager to learn and grow in this ever-evolving tech landscape. 🚀
+            When I&apos;m not coding, you'll find me exploring emerging technologies, contributing to open-source projects, or sharing knowledge with the developer community. I'm always eager to learn and grow in this ever-evolving tech landscape. 🚀
           </p>
 
           <motion.a

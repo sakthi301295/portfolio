@@ -21,23 +21,29 @@ export default function Home() {
 
   // Track active section
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = navItems.map((item) => item.toLowerCase());
-      for (let section of sections) {
-        const element = document.getElementById(section);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          if (rect.top <= 150 && rect.bottom >= 150) {
-            setActiveSection(section);
-            break;
-          }
+  const handleScroll = () => {
+    const sections = navItems.map((item) => item.toLowerCase());
+
+    for (const section of sections) {
+      const element = document.getElementById(section);
+
+      if (element) {
+        const rect = element.getBoundingClientRect();
+
+        if (rect.top <= 150 && rect.bottom >= 150) {
+          setActiveSection(section);
+          break;
         }
       }
-    };
+    }
+  };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, [navItems]);
 
   return (
     <main className="min-h-screen flex flex-col items-center bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-slate-900 dark:via-slate-900 dark:to-indigo-950 text-gray-900 dark:text-gray-100">

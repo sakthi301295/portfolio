@@ -37,11 +37,11 @@ export default function ContactPage() {
           transition={{ delay: 0.2 }}
           className="text-4xl sm:text-5xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
         >
-          Let's Connect
+          Let&apos;s Connect
         </motion.h2>
         <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? I'm always open to new opportunities and exciting ideas. Let's build something amazing together!
+          Have a project in mind or want to collaborate? I&apos;m always open to new opportunities and exciting ideas. Let&apos;s build something amazing together!
         </p>
       </div>
 
@@ -170,7 +170,7 @@ export default function ContactPage() {
               exit={{ opacity: 0, scale: 0.9 }}
               className="p-4 rounded-xl bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 text-green-700 dark:text-green-300 font-semibold text-center"
             >
-              ✅ Message sent successfully! I'll get back to you soon.
+              ✅ Message sent successfully! I&apos;ll get back to you soon.
             </motion.div>
           )}
         </form>
